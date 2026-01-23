@@ -1,8 +1,8 @@
 /*
  * Approach/Algorithm: Brute Force
  * - Iterate through each pair of elements in the array to check if their sum equals the target.
- * Time Complexity: O(n^2) - Nested loops over the array.
- * Space Complexity: O(1) - No additional space used apart from input and output.
+ * Time Complexity: O(n^2) - Nested loops result in quadratic time complexity.
+ * Space Complexity: O(1) - Uses constant extra space.
  */
 class Solution {
 public:
@@ -15,6 +15,6 @@ public:
                 }
             }
         }
-        return {}; // Handle case where no solution is found (though problem states one exists)
+        return {}; // Return empty vector if no solution found (though problem guarantees one)
     }
 };
