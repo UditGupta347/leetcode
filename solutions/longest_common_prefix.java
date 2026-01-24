@@ -5,6 +5,6 @@ class Solution {
         String s2  = strs.[strs.length-1];
         int index =0;
         while(idx<s1.length() && idx<s2.length()){
-            if(s1.charAt(idx) == s2.)
-        }
-    }
+            if(s1.charAt(idx) == s2.charAt(idx)){
+                idx++;
+            }
