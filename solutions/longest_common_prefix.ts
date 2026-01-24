@@ -2,6 +2,6 @@
                 break;
             }
         }
-        return s1.substring(0,i);
+        return s1.substring(0,index);
     }
 }
