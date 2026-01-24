@@ -1,5 +1,6 @@
 class Solution {
     public int[] plusOne(int[] digits) {
+        int last = digits.length-1;
         for(int i=0;i<)
     }
 }
