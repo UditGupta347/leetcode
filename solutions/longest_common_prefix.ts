@@ -2,6 +2,6 @@
                 break;
             }
         }
-        return s1.substring()
+        return s1.substring(0,idx);
     }
 }
