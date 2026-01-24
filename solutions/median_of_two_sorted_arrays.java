@@ -1,8 +1,5 @@
 class Solution {
-    public String longestCommonPrefix(String[] strs) {
+    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
 
-        for(int i=0;i<strs.length;i++){
-            if
-        }
     }
 }
