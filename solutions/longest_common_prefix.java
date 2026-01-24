@@ -3,6 +3,7 @@ class Solution {
         Arrays.sort(strs);
         String s1 = strs[0];
         String s2  = strs.[strs.length-1];
-        int index
+        int index =0;
+        while(idx<s1.length() && idx)
     }
 }
