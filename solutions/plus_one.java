@@ -4,5 +4,7 @@ class Solution {
         for(int i=0;i<digits.length;i++){
             int new = last + 1 ;
         }
+        return new ;
     }
+
 }
