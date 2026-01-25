@@ -7,4 +7,6 @@ class Solution {
                 break;
             }
         }
+        return str.length();
     }
+}
