@@ -6,5 +6,5 @@ class Solution {
                 i++;
             }
         }
-        return nums.charAt[]
+        return nums.charAt[i];
     }
