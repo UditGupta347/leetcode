@@ -1,5 +1,6 @@
-class Solution {
-    public boolean isPalindrome(String s) {
-
+            left++;
+            right--;
+        }
+        return true;
     }
 }
