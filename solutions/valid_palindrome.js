@@ -1,6 +1,0 @@
-            left++;
-            right--;
-        }
-        return true;
-    }
-}
