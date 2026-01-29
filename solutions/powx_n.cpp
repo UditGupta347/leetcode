@@ -1,8 +1,15 @@
-class Solution {
-    public double myPow(double x, int n) {
-        if(n==0){
-            return 1;
-        }
-        return x*myPow(x,n-1);
-    }
-}
+        double pow = 1;        double pow = 1;
+
+        while(n != 0){        while(n != 0){
+            if((n & 1) != 0){            if((n & 1) != 0){
+                pow *= x;                pow *= x;
+            }             }
+
+            x *= x;            x *= x;
+            n >>>= 1;            n >>>= 1;
+
+        }        }
+
+        return pow;        return pow;
+    }    }
+}}
