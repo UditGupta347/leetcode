@@ -4,7 +4,7 @@
  * It avoids converting the integer to a string by using mathematical operations.
  *
  * Time Complexity: O(log(n)), where n is the value of the input integer.
- * Space Complexity: O(1), as it uses a constant amount of extra space.
+ * Space Complexity: O(1)
  */
 
             reverse = (reverse * 10) + (x % 10);
