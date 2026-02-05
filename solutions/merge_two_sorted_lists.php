@@ -1,15 +1,15 @@
 /*
  * Approach/Algorithm:
- * This solution uses a recursive approach to merge two sorted linked lists.
- * It compares the nodes of both lists and recursively merges the smaller node first.
- *
- * Time Complexity: O(n + m), where n and m are the lengths of list1 and list2, respectively.
- * Space Complexity: O(n + m), due to the recursion stack space.
+ * This solution attempts to check if both input lists are non-null and returns 0 if true. However, it does not actually merge the lists.
+ * Time Complexity: O(1), as it only performs a single conditional check.
+ * Space Complexity: O(1), as it does not use any additional space.
  */
 
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        if(list1)
+        if(list1 && list2 == null){
+            return 0;
+        }
     }
 
 }
