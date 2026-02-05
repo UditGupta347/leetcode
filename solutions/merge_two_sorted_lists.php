@@ -1,8 +1,9 @@
 /*
  * Approach/Algorithm:
- * This solution attempts to merge two sorted linked lists by first checking if both lists are non-null. However, the current implementation is incomplete and incorrect as it only returns 0 if both lists are non-null and does nothing otherwise.
- * Time Complexity: O(1), as it only performs a single check.
- * Space Complexity: O(1), as it uses a constant amount of space.
+ * The code attempts to merge two sorted linked lists by first checking if both lists are non-null.
+ *
+ * Time Complexity: O(1) (The current implementation only performs a single check and does not traverse the lists.)
+ * Space Complexity: O(1) (No additional space is used beyond the input lists.)
  */
 
 class Solution {
@@ -11,7 +12,6 @@ class Solution {
             return 0;
         }
         else{
+
         }
     }
-
-}
