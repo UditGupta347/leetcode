@@ -1,10 +1,8 @@
 /*
  * Approach/Algorithm:
- * This solution uses a dummy node to simplify the merging process. It iterates through both lists,
- * comparing the current nodes and attaching the smaller node to the merged list.
- *
- * Time Complexity: O(n + m), where n and m are the lengths of list1 and list2, respectively.
- * Space Complexity: O(1), as the merging is done in-place without using extra space.
+ * This solution uses a recursive approach to merge two sorted linked lists. It compares the values of the current nodes of both lists and recursively merges the rest of the lists.
+ * Time Complexity: O(n + m), where n and m are the lengths of the two lists.
+ * Space Complexity: O(n + m), due to the recursive call stack.
  */
 
 /**
