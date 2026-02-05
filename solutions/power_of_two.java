@@ -1,8 +1,8 @@
 /*
  * Approach/Algorithm:
- * This solution checks if a number is a power of two by continuously dividing the number by 2 until it is no longer even. If the final result is 1, then the number is a power of two.
- * Time Complexity: O(log n), where n is the input number. This is because we are halving the number in each iteration.
- * Space Complexity: O(1), as we are using a constant amount of space.
+ * This solution checks if a number is a power of two by continuously dividing the number by 2 until it is no longer even. If the resulting number is 1, then the original number is a power of two.
+ * Time Complexity: O(log n), where n is the input number.
+ * Space Complexity: O(1), as it uses a constant amount of space.
  */
 
 class Solution {class Solution {
