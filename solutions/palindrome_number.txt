@@ -1,8 +1,10 @@
 /*
  * Approach/Algorithm:
- * This solution reverses the integer and compares it with the original. It avoids converting the integer to a string by using modulus and division operations.
- * Time Complexity: O(log(x)) where x is the input number, as it processes each digit once.
- * Space Complexity: O(1) since it uses a constant amount of extra space.
+ * This solution reverses the given integer and compares it with the original.
+ * It avoids converting the integer to a string by using mathematical operations.
+ *
+ * Time Complexity: O(log(n)), where n is the value of the input integer.
+ * Space Complexity: O(1), as it uses a constant amount of extra space.
  */
 
             reverse = (reverse * 10) + (x % 10);
