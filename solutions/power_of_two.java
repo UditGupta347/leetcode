@@ -1,6 +1,6 @@
 /*
  * Approach/Algorithm:
- * This solution checks if a number is a power of two by continuously dividing the number by 2 until it is no longer even. If the resulting number is 1, it returns true; otherwise, it returns false.
+ * This solution checks if a number is a power of two by continuously dividing the number by 2 until it is no longer even. If the final result is 1, then the number is a power of two.
  * Time Complexity: O(log n), where n is the input number, as it halves the number in each iteration.
  * Space Complexity: O(1), as it uses a constant amount of space.
  */
