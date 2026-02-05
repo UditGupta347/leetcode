@@ -1,12 +1,9 @@
 /*
-  Approach/Algorithm:
-  The solution checks if a number n is a power of two by using the property that
-  a power of two has exactly one bit set in its binary representation.
-  This can be checked using the expression n > 0 && (n & (n - 1)) == 0.
-
-  Time Complexity: O(1)
-  Space Complexity: O(1)
-*/
+ * Approach/Algorithm:
+ * Check if n is greater than 0 and if n & (n - 1) equals 0. This checks if n is a power of two without using loops or recursion.
+ * Time Complexity: O(1)
+ * Space Complexity: O(1)
+ */
 
 class Solution {
     public boolean isPowerOfTwo(int n) {
