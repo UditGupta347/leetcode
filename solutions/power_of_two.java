@@ -1,9 +1,10 @@
 /*
  * Approach/Algorithm:
  * This solution attempts to check if a number is a power of two by first handling edge cases (n=0, n=1)
- * and then iterating to check if n matches any power of two, though the loop is incomplete.
- * Time Complexity: O(n), where n is the input number.
- * Space Complexity: O(1)
+ * and then iterating to check if n matches any power of two, although the loop is incomplete.
+ *
+ * Time Complexity: O(n) due to the loop that could potentially iterate up to n times.
+ * Space Complexity: O(1) as it uses a constant amount of extra space.
  */
 
 class Solution {
