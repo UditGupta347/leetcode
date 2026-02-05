@@ -1,6 +1,6 @@
 /*
  * Approach/Algorithm:
- * Check if n is greater than 0 and if n & (n - 1) equals 0. This checks if n is a power of two without using loops or recursion.
+ * Check if n is greater than 0 and if n and n-1 have no common bits (i.e., n & (n-1) == 0).
  * Time Complexity: O(1)
  * Space Complexity: O(1)
  */
