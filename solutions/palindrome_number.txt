@@ -1,8 +1,6 @@
 /*
  * Approach/Algorithm:
- * This solution reverses the given integer and compares it with the original.
- * It avoids converting the integer to a string by using mathematical operations.
- *
+ * This solution reverses the given integer and compares it to the original. It avoids converting the integer to a string by using modulo and division operations.
  * Time Complexity: O(log(n)), where n is the value of the input integer.
  * Space Complexity: O(1)
  */
