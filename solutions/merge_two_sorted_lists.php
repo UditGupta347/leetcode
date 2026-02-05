@@ -1,7 +1,7 @@
 /*
  * Approach/Algorithm:
- * This solution uses a dummy node to simplify the merging process. It iterates through both lists,
- * comparing the current nodes and adding the smaller node to the merged list.
+ * This solution uses a dummy node to simplify merging and avoid edge cases. It iterates through both lists,
+ * comparing the current nodes and attaching the smaller node to the merged list.
  *
  * Time Complexity: O(n + m), where n and m are the lengths of the two lists.
  * Space Complexity: O(1), as we are only using a few extra pointers regardless of input size.
