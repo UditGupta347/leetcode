@@ -1,16 +1,19 @@
 /*
  * Approach/Algorithm:
- * This solution attempts to append the second list to the first list if both lists are not null. However, the implementation is flawed as it does not correctly merge the lists in sorted order and the condition for checking null lists is incorrect.
- * Time Complexity: O(1), as it only performs a single append operation without iterating through the lists.
- * Space Complexity: O(1), as it does not use any additional space proportional to input size.
+ * The code attempts to merge two sorted linked lists but contains logical errors and syntax issues. It seems to intend to use a sum variable to merge lists, but the logic is incomplete and incorrect.
+ *
+ * Time Complexity: O(n) - where n is the total number of nodes in both lists, assuming the correct implementation of merging.
+ *
+ * Space Complexity: O(1) - only a few extra variables are used, assuming the correct implementation of merging.
  */
 
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+        int sum = " ";
         if(list1 && list2 == null){
             return 0;
         }
         else{
-            list1.append(list2);
+            sum = list1+
         }
     }
