@@ -1,5 +1,5 @@
 /*
- * Approach/Algorithm: This solution uses the Gauss' formula to calculate the sum of the first n natural numbers and then subtracts the sum of the given array to find the missing number.
+ * Approach/Algorithm: This solution uses the Gauss' formula to calculate the sum of the first n natural numbers and then subtracts the sum of the given array to find the missing number. It iterates through the array, adjusting the result by adding the index and subtracting the array element.
  * Time Complexity: O(n)
  * Space Complexity: O(1)
  */
