@@ -1,0 +1,11 @@
+/*
+Approach/Algorithm: The solution checks if an integer is a palindrome by reversing the number and comparing it with the original. This is done without converting the integer to a string.
+Time Complexity: O(log10(n)) where n is the value of x, as we are processing each digit of the number.
+Space Complexity: O(1) since we are using a constant amount of extra space.
+*/
+
+class Solution {
+    public boolean isPalindrome(int x) {
+
+    }
+}
