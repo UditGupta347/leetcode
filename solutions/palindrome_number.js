@@ -1,8 +1,8 @@
 /*
  * Approach/Algorithm:
- * This solution checks if an integer is a palindrome by reversing the number and comparing it to the original. It first handles negative numbers by returning false. Then, it reverses the number by extracting digits in a loop and forming the reversed number. If the reversed number matches the original, it returns true.
- * Time Complexity: O(log10(n)) where n is the value of x, as we are processing each digit once.
- * Space Complexity: O(1) since we are using a constant amount of extra space.
+ * This solution checks if a number is a palindrome by reversing the number and comparing it to the original. It first handles negative numbers by returning false. Then, it reverses the number by extracting digits in a loop and forming the reversed number.
+ * Time Complexity: O(log10(n)) where n is the value of x, as it processes each digit once.
+ * Space Complexity: O(1) as it uses a constant amount of extra space.
  */
 
 class Solution {
