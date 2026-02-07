@@ -13,7 +13,8 @@ class Solution {class Solution {
         int xcopy = x;        int xcopy = x;
 
         while (x > 0) {        while (x > 0) {
-            reverse = (reverse * 10) + (x % 10);            reverse = (reverse * 10) + (x % 10);
+            reverse = (reverse * 10) + (x %             reverse = (reverse * 10) + (x %
+10);10);
             x /= 10;            x /= 10;
         }        }
 
