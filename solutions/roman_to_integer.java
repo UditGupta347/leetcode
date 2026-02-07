@@ -1,7 +1,7 @@
 /*
  * Approach/Algorithm:
- * This solution uses a HashMap to store the values of Roman numeral symbols and iterates through the string,
- * adding the corresponding value to the result while handling subtractive combinations.
+ * This solution uses a HashMap to store the values of Roman numeral symbols and iterates through the string to convert it to an integer.
+ * It checks if the current symbol is smaller than the next symbol and subtracts or adds the value accordingly.
  * Time Complexity: O(n), where n is the length of the input string.
  * Space Complexity: O(1), as the HashMap uses constant space.
  */
