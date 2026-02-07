@@ -10,4 +10,12 @@
 
         return reverse == xcopy;
     }
+        int reverse = 0;
+        int xcopy = x;
+        }
+
+        if (x < 0) {
+            return false;
+class Solution {
+    public boolean isPalindrome(int x) {
 }
